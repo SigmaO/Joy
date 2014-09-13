@@ -1,9 +1,11 @@
 html{
     background:url("../img/bg.jpg");
+    color: #807367;
 }
 body{
     margin:0px 100px;
     background:transparent;
+    color: #807367;
 }
 hr{
     border-top: 1px solid #AA9A82;

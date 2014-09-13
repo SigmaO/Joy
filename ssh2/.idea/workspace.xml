@@ -76,7 +76,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="0" selection-end="4491" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="2085">
+            <state line="15" column="20" selection-start="459" selection-end="459" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="2085">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,16 @@
       <file leaf-file-name="signupSuccess.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/signupSuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730">
+            <state line="72" column="67" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.8356164" vertical-offset="470" max-vertical-offset="1200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="19" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
               <folding />
             </state>
           </provider>
@@ -103,7 +112,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/artifacts/web_application_exploded/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="0" selection-end="4301" vertical-scroll-proportion="0.96153843" vertical-offset="225" max-vertical-offset="2085">
+            <state line="10" column="20" selection-start="0" selection-end="4491" vertical-scroll-proportion="0.96153843" vertical-offset="225" max-vertical-offset="2085">
               <folding />
             </state>
           </provider>
@@ -128,24 +137,6 @@
               <folding>
                 <marker date="1410517680000" expanded="true" signature="424:590" placeholder="insert into ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -179,12 +170,12 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/details.jsp" />
         <option value="$PROJECT_DIR$/WebContent/details.jsp" />
         <option value="$PROJECT_DIR$/WebContent/register.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/template/1.0/css/style.css" />
         <option value="$PROJECT_DIR$/classes/artifacts/web_application_exploded/index.jsp" />
         <option value="$PROJECT_DIR$/classes/artifacts/web_application_exploded/WEB-INF/signupSuccess.js" />
         <option value="$PROJECT_DIR$/WebContent/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/signupSuccess.js" />
         <option value="$PROJECT_DIR$/WebContent/signupSuccess.js" />
+        <option value="$PROJECT_DIR$/WebContent/template/1.0/css/style.css" />
         <option value="$PROJECT_DIR$/WebContent/signupSuccess.jsp" />
       </list>
     </option>
@@ -300,7 +291,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_application_exploded" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_application_exploded" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_application_exploded" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -766,12 +891,12 @@
       <workItem from="1410518159092" duration="7258000" />
       <workItem from="1410540939841" duration="253000" />
       <workItem from="1410541197454" duration="10000" />
-      <workItem from="1410541226342" duration="20451000" />
+      <workItem from="1410541226342" duration="24401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30206000" />
+    <option name="totallyTimeSpent" value="34156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="228" y="34" width="1161" height="874" extended-state="0" />
@@ -830,13 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
@@ -882,9 +1000,7 @@
     <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2940">
-          <folding>
-            <element signature="e#856#1011#2" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,15 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="349" selection-end="349" vertical-scroll-proportion="-7.5" vertical-offset="75" max-vertical-offset="2820">
-          <folding>
-            <element signature="e#856#1011#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/artifacts/web_application_exploded/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="323" selection-end="323" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
@@ -1170,21 +1277,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/artifacts/web_application_exploded/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="0" selection-end="4301" vertical-scroll-proportion="0.96153843" vertical-offset="225" max-vertical-offset="2085">
+        <state line="10" column="20" selection-start="0" selection-end="4491" vertical-scroll-proportion="0.96153843" vertical-offset="225" max-vertical-offset="2085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/artifacts/web_application_exploded/template/1.0/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="4711" vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="2820">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="0" selection-end="4491" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="2085">
+        <state line="15" column="20" selection-start="459" selection-end="459" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="2085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/signupSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="155" selection-end="155" vertical-scroll-proportion="0.08219178" vertical-offset="0" max-vertical-offset="730">
+        <state line="72" column="67" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.8356164" vertical-offset="470" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>

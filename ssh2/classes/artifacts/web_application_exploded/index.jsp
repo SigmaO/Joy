@@ -44,36 +44,36 @@
     }
 </style>
 <script>
-$(function(){
-	$("#btn_remember_me").click(function(){
-		$(this).toggleClass("off");
-	});
-    $(".btn_new_comer").click(function(){
-        $(".box_wrap").css({"height":233});
-        $(".signin_box_wrap").animate({"top":-$(".signin_box_wrap").height()-50,opacity:0},600);
-        $(".signup_box_wrap").css({
-            opacity: 0,
-            display: 'inline-block'
-        }).animate({opacity:1,"top":-$(".signin_box_wrap").height()},600);
+    $(function(){
+        $("#btn_remember_me").click(function(){
+            $(this).toggleClass("off");
+        });
+        $(".btn_new_comer").click(function(){
+            $(".box_wrap").css({"height":233});
+            $(".signin_box_wrap").animate({"top":-$(".signin_box_wrap").height()-50,opacity:0},600);
+            $(".signup_box_wrap").css({
+                opacity: 0,
+                display: 'inline-block'
+            }).animate({opacity:1,"top":-$(".signin_box_wrap").height()},600);
+        })
+        $(".btn_old_member").click(function(){
+            $(".box_wrap").css({"height":$(".signin_box_wrap").height()});
+            $(".signup_box_wrap").animate({"top":$(".signin_box_wrap").height(),opacity:0},600);
+            $(".signin_box_wrap").css({
+                opacity: 0,
+                display: 'inline-block'
+            }).animate({opacity:1,"top":0},600);
+        })
+        $("#btn_login").click(function(){
+            for(i=0;i<=3;i++){
+                $("#login_box").stop().animate({
+                    left:-(21-7*i)
+                },50).animate({
+                    left:21-7*i
+                },50)
+            }
+        })
     })
-    $(".btn_old_member").click(function(){
-        $(".box_wrap").css({"height":$(".signin_box_wrap").height()});
-        $(".signup_box_wrap").animate({"top":$(".signin_box_wrap").height(),opacity:0},600);
-        $(".signin_box_wrap").css({
-            opacity: 0,
-            display: 'inline-block'
-        }).animate({opacity:1,"top":0},600);
-    })
-	$("#btn_login").click(function(){
-		for(i=0;i<=3;i++){
-			$("#login_box").stop().animate({
-				left:-(21-7*i)
-			},50).animate({
-				left:21-7*i
-			},50)
-		}
-	})
-})
 </script>
 
 <div class="login_block">
@@ -87,7 +87,7 @@ $(function(){
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                    <input type="password"  class="input_signIn" placeholder="密码"/>
+                        <input type="password"  class="input_signIn" placeholder="密码"/>
                     </div>
                 </div>
                 <div class="remember_forgot">
@@ -127,8 +127,8 @@ $(function(){
                     </div>
                 </div>
                 <button class="btn btn-default btn_signIn" type="submit">注册</button>
-            </div>
-         </div>
-      </div>
+        </div>
+    </div>
+</div>
 </div>
 <jsp:include page="template/1.0/footer.jsp"/>
