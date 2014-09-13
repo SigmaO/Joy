@@ -1,15 +1,17 @@
-<%@ page import="com.hijoy.object.Merchant" %>
+<%@ page import="com.hijoy.dao.MerchantDao" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
-<jsp:include page="template/1.0/header.jsp"/>
 <%
     String idMerchant= request.getParameter("MerchantID");
+System.out.println(idMerchant);
     MerchantDao merchantDao = new MerchantDao();
+    
     ResultSet rs = null;
     rs = merchantDao.getMerchant(idMerchant);
+    rs.next();
 %>
+<jsp:include page="template/1.0/header.jsp"/>
 <style>
     #successInfo{
         vertical-align: middle;
@@ -78,7 +80,7 @@
 </div>
 <div id="successInfo">
     <br /><br />
-    <p>亲爱的<%=rs.getString("ID")%></p>
+    <p>亲爱的<%=rs.getString("name")%></p>
     <p class="content_cn">感谢您加入“XXX”，现在就去<a href="javascript:void(0)">邮箱验证</a>。</p>
 </div>
 <jsp:include page="template/1.0/footer.jsp"/>

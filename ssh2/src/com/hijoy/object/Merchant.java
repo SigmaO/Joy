@@ -2,6 +2,7 @@ package com.hijoy.object;
 
 public class Merchant {
 	private String id;
+	private String merchant_no;
 	private String password;
 	private String email;
 	private String telephone;
@@ -10,10 +11,27 @@ public class Merchant {
 	private String addressLine2;
 	private String addressLine3;
 	private int verified;
+	private int emailVerified;
 	private String city;
 	private String district;
 	private String province;
 	private String area;
+
+	public Merchant() {
+		this.password = "";
+		this.email = "";
+		this.telephone = "";
+		this.name = "";
+		this.addressLine1 = "";
+		this.addressLine2 = "";
+		this.addressLine3 = "";
+		this.verified = 0;
+		this.emailVerified=0;
+		this.city = "";
+		this.district = "";
+		this.province = "";
+		this.area = "";
+	}
 
 	/**
 	 * @return the id
@@ -28,6 +46,21 @@ public class Merchant {
 	 */
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	/**
+	 * @return the merchant_no
+	 */
+	public String getMerchant_no() {
+		return merchant_no;
+	}
+
+	/**
+	 * @param merchant_no
+	 *            the merchant_no to set
+	 */
+	public void setMerchant_no(String merchant_no) {
+		this.merchant_no = merchant_no;
 	}
 
 	/**
