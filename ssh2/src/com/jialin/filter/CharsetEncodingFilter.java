@@ -10,7 +10,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 /**
- * Í³Ò»ÉèÖÃ×Ö·û¼¯
+ * Í³Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
  * @author Administrator
  *
  */
@@ -24,13 +24,13 @@ public class CharsetEncodingFilter implements Filter {
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
 			FilterChain filterChain) throws IOException, ServletException {
 		
-		//ÉèÖÃ×Ö·û¼¯
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
 		servletRequest.setCharacterEncoding(encoding);
 		filterChain.doFilter(servletRequest, servletResponse);
 	}
 
 	public void init(FilterConfig filterConfig) throws ServletException {
-		//È¡µÃ³õÊ¼»¯²ÎÊý
+		//È¡ï¿½Ã³ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		this.encoding = filterConfig.getInitParameter("encoding");
 	}
 }

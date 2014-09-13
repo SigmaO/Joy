@@ -34,11 +34,11 @@ public class LoginAction extends ActionSupport {
 			Map session=ActionContext.getContext().getSession();
 			session.put("user.name", user.getName());
 			
-			System.out.println("µÇÂ¼³É¹¦,ÓÃ»§Ãû="+user.getName());
+			System.out.println("ï¿½ï¿½Â¼ï¿½É¹ï¿½,ï¿½Ã»ï¿½ï¿½ï¿½="+user.getName());
 			return "success";
 		}
 		
-		System.out.println("µÇÂ¼Ê§°Ü£¬ÓÃ»§Ãû="+user.getName());
+		System.out.println("ï¿½ï¿½Â¼Ê§ï¿½Ü£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½="+user.getName());
 		return "fail";
 	}
 	

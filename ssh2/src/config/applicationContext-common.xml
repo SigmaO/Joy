@@ -13,10 +13,10 @@
 	<!--配数据源 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
-		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-		<property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
-		<property name="username" value="ssh" />
-		<property name="password" value="ssh" />
+		<property name="driverClassName" value="org.gjt.mm.mysql.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/joy" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
 	</bean>
 
 	<bean id="sessionFactory"
