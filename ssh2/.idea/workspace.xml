@@ -85,7 +85,7 @@
       <file leaf-file-name="signupSuccess.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/signupSuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.46575344" vertical-offset="605" max-vertical-offset="1335">
+            <state line="22" column="21" selection-start="709" selection-end="709" vertical-scroll-proportion="0.4520548" vertical-offset="0" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -968,12 +968,12 @@
       <workItem from="1410518159092" duration="7258000" />
       <workItem from="1410540939841" duration="253000" />
       <workItem from="1410541197454" duration="10000" />
-      <workItem from="1410541226342" duration="26613000" />
+      <workItem from="1410541226342" duration="26802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36368000" />
+    <option name="totallyTimeSpent" value="36557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="55" width="1161" height="874" extended-state="0" />
@@ -1388,7 +1388,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/signupSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.46575344" vertical-offset="605" max-vertical-offset="1335">
+        <state line="22" column="21" selection-start="709" selection-end="709" vertical-scroll-proportion="0.4520548" vertical-offset="0" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
