@@ -14,9 +14,9 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="org.gjt.mm.mysql.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/hi_joy" />
-		<property name="username" value="root" />
-		<property name="password" value="12345" />
+		<property name="url" value="jdbc:mysql://sigmaojoy.mysql.rds.aliyuncs.com:3306/hi_joy" />
+		<property name="username" value="hijoy" />
+		<property name="password" value="123456" />
 	</bean>
 
 	<bean id="sessionFactory"
