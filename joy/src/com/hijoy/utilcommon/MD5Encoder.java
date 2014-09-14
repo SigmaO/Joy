@@ -5,7 +5,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * Created by vincent on 14-9-14.
  */
-public class GenerateMD5 {
+public class MD5Encoder {
 
     // 全局数组
     private final static String[] strDigits = { "0", "1", "2", "3", "4", "5",

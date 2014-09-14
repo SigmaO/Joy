@@ -3,12 +3,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%
-    String idMerchant= request.getParameter("MerchantID");
-System.out.println(idMerchant);
+    String merchantId= request.getParameter("MerchantID");
+System.out.println(merchantId);
     MerchantDao merchantDao = new MerchantDao();
     
     ResultSet rs = null;
-    rs = merchantDao.getMerchant(idMerchant);
+    rs = merchantDao.getMerchant(merchantId);
     rs.next();
 %>
 <jsp:include page="template/1.0/header.jsp"/>

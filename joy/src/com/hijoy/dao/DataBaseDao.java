@@ -9,8 +9,8 @@ import java.sql.SQLException;
 public class DataBaseDao {
 	private static Connection con;
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:3306/hi_joy";
-	private static final String NAME = "root";
+	private static final String URL = "jdbc:mysql://sigmaojoy.mysql.rds.aliyuncs.com:3306/hi_joy";
+	private static final String NAME = "hijoy";
 	private static final String PASSWORD = "123456";
 	static {
 		try {

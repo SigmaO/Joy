@@ -55,6 +55,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -64,55 +65,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <file leaf-file-name="struts-hijoy.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/struts-hijoy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="825">
+            <state line="19" column="14" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="645">
+              <folding>
+                <marker date="1410700793000" expanded="true" signature="1010:1101" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hijoy/action/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <file leaf-file-name="SecurityCodeImageAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hijoy/action/SecurityCodeImageAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="520" selection-end="520" vertical-scroll-proportion="-6.25" vertical-offset="210" max-vertical-offset="2505">
+            <state line="33" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-beans.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/applicationContext-beans.xml">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="555">
+            <state line="65" column="35" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2910">
+              <folding>
+                <marker date="1410704200000" expanded="true" signature="2334:2404" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="41" selection-start="1059" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-common.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/applicationContext-common.xml">
+      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="1045" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+            <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/hibernate.cfg.xml">
+      <file leaf-file-name="CheckSecurityCode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hijoy/interceptor/CheckSecurityCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenerateMD5.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/GenerateMD5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="1005">
+            <state line="10" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="870">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,38 +134,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendEmail.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/SendEmail.java">
+      <file leaf-file-name="SessionHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hijoy/web/SessionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="1680">
+            <state line="25" column="21" selection-start="690" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="215" column="105" selection-start="5358" selection-end="5358" vertical-scroll-proportion="0.7567568" vertical-offset="2945" max-vertical-offset="3495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/details.jsp">
+      <file leaf-file-name="CheckLogin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jialin/interceptor/CheckLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="6" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MerchantDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hijoy/dao/MerchantDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharsetEncodingFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jialin/filter/CharsetEncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="630">
-              <folding />
+            <state line="32" column="8" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="720">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/WebContent/abc.jsp" />
         <option value="$PROJECT_DIR$/src/com/jialin/filter/CharsetEncodingFilter.java" />
         <option value="$PROJECT_DIR$/WebContent/template/1.0/header.jsp" />
@@ -174,11 +182,35 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/details.jsp" />
         <option value="$PROJECT_DIR$/WebContent/details.jsp" />
         <option value="$PROJECT_DIR$/WebContent/register.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/template/1.0/css/style.css" />
-        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
         <option value="$PROJECT_DIR$/src/config/applicationContext-common.xml" />
         <option value="$PROJECT_DIR$/src/config/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/hijoy/utilcommon/MD5.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/utilcommon/MD5Encoder.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/web/ImageServelet.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/utilcommon/RandomVerificationCode.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/action/SecurityCodeImageAction.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/utilcommon/SecurityCode.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/utilcommon/SecurityImage.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/action/LoginVerficationAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/action/SecurityCodeVerificationAction.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/dao/MerchantDao.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/dao/DataBaseDao.java" />
+        <option value="$PROJECT_DIR$/src/com/jialin/interceptor/CheckLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/object/Web.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/action/RegistrationAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/signupSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/config/applicationContext-beans.xml" />
+        <option value="$PROJECT_DIR$/src/config/struts.xml" />
+        <option value="$PROJECT_DIR$/src/config/struts-hijoy.xml" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/action/package-info.java" />
+        <option value="$PROJECT_DIR$/WebContent/template/1.0/css/style.css" />
+        <option value="$PROJECT_DIR$/WebContent/template/1.0/webCommon.jsp" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/web/Session.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/interceptor/CheckSecurityCode.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/web/sessionControl.java" />
+        <option value="$PROJECT_DIR$/src/com/hijoy/web/SessionHandler.java" />
+        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
       </list>
     </option>
   </component>
@@ -190,8 +222,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="22" />
+    <option name="x" value="207" />
+    <option name="y" value="40" />
     <option name="width" value="1161" />
     <option name="height" value="874" />
   </component>
@@ -233,6 +265,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,6 +281,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,6 +399,62 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jialin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jialin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interceptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jialin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -309,7 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utilcommon" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,6 +501,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hijoy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hijoy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interceptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssh2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hijoy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,7 +584,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -800,6 +1020,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -831,15 +1056,17 @@
       <workItem from="1410540939841" duration="253000" />
       <workItem from="1410541197454" duration="10000" />
       <workItem from="1410541226342" duration="8915000" />
-      <workItem from="1410672530268" duration="1068000" />
+      <workItem from="1410672530268" duration="16436000" />
+      <workItem from="1410691291803" duration="5200000" />
+      <workItem from="1410698376619" duration="11298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19738000" />
+    <option name="totallyTimeSpent" value="51604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="22" width="1161" height="874" extended-state="0" />
+    <frame x="207" y="40" width="1161" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -860,7 +1087,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39875776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -895,132 +1122,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/filter/CharsetEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="523" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/userMain.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/filter/CharsetEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/struts-user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/exception/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/dao/UserDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="675" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jialin/dao/IUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hijoy/object/Merchant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hijoy/object/package-info.java">
@@ -1035,17 +1139,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jialin/service/UserManageImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="630" />
+        <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jialin/service/IUserManage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/interceptor/CheckLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
@@ -1058,39 +1161,11 @@
         <state line="192" column="0" selection-start="7854" selection-end="7854" vertical-scroll-proportion="-13.16" vertical-offset="2536" max-vertical-offset="2955" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="531" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.springBeans">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssh2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hijoy/dao/DataBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="73" selection-start="340" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="930" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jialin/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="44" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jialin/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+        <state line="36" column="44" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="570">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/success.jsp">
@@ -1098,18 +1173,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jialin/filter/CharsetEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="16" column="38" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/footer.jsp">
@@ -1119,84 +1185,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/userMain.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/fail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hijoy/dao/MerchantDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1230">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="6" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="172" selection-end="749" vertical-scroll-proportion="0.080882356" vertical-offset="27" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="520" selection-end="520" vertical-scroll-proportion="-6.25" vertical-offset="210" max-vertical-offset="2505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/applicationContext-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/applicationContext-common.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="1045" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
+        <state line="31" column="6" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/SendEmail.java">
@@ -1206,12 +1207,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/GenerateMD5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/MD5Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="1005">
+        <state line="13" column="28" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/SecurityCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/utilcommon/SecurityImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="33" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1785">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.4.1.jar!/org/apache/struts2/dispatcher/ng/ExecuteOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="714" selection-end="714" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xwork-core-2.3.4.1.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="28" selection-start="3808" selection-end="3808" vertical-scroll-proportion="-4.96" vertical-offset="941" max-vertical-offset="1350" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.4.1.jar!/org/apache/struts2/impl/StrutsActionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="718" selection-end="718" vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="315" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.4.1.jar!/org/apache/struts2/dispatcher/Dispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="16" selection-start="4151" selection-end="4151" vertical-scroll-proportion="-4.96" vertical-offset="1031" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts2-core-2.3.4.1.jar!/org/apache/struts2/dispatcher/ng/filter/StrutsPrepareAndExecuteFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="857" selection-end="857" vertical-scroll-proportion="-9.48" vertical-offset="3" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-orm-3.2.1.RELEASE.jar!/org/springframework/orm/hibernate4/support/OpenSessionInViewFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="849" selection-end="849" vertical-scroll-proportion="-5.28" vertical-offset="153" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="49" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/object/Merchant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/dao/DataBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="172" selection-end="749" vertical-scroll-proportion="-2.4166667" vertical-offset="2" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="301" selection-end="301" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/dao/MerchantDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jialin/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="509" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.springBeans">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/applicationContext-common.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="93" selection-start="1058" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/signupSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/struts-user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="52" selection-start="1750" selection-end="1790" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/action/RegistrationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="455" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/applicationContext-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="1059" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/struts-hijoy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="645">
+          <folding>
+            <marker date="1410700793000" expanded="true" signature="1010:1101" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/action/SecurityCodeImageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/action/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="35" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2910">
+          <folding>
+            <marker date="1410704200000" expanded="true" signature="2334:2404" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jialin/interceptor/CheckLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="8" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="720">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/template/1.0/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="565" selection-end="565" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/interceptor/CheckSecurityCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="870">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hijoy/web/SessionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="690" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="105" selection-start="5358" selection-end="5358" vertical-scroll-proportion="0.7567568" vertical-offset="2945" max-vertical-offset="3495">
+          <folding />
         </state>
       </provider>
     </entry>

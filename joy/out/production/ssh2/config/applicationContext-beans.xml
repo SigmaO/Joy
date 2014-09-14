@@ -13,10 +13,12 @@
 	<bean name="userAction" class="com.jialin.action.UserAction" scope="prototype">
 		<!-- <property name="userManage" ref="userManage"></property> -->
 	</bean>
-	<bean name="registrationAction" class="com.hijoy.action.RegistractionAction" scope="prototype"></bean>
+	<bean name="registrationAction" class="com.hijoy.action.RegistrationAction" scope="prototype"></bean>
+
 
 	<!-- Spring管理Struts2的Interceptor -->
 	<bean name="checkLoginInterceptor" class="com.jialin.interceptor.CheckLogin" scope="prototype"></bean>
+    <bean name="checkSecurityCodeInterceptor" class="com.hijoy.interceptor.CheckSecurityCode" scope="prototype"></bean>
 
 	
 	

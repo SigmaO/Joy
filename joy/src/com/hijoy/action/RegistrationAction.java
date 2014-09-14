@@ -12,7 +12,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class RegistrationAction extends ActionSupport {
 	private Merchant merchant;
-	public String jumpPage;
+	public String redirPage;
 
 	public Merchant getMerchant() {
 		return merchant;
@@ -28,9 +28,9 @@ public class RegistrationAction extends ActionSupport {
 		MerchantDao merchantDao = new MerchantDao();
 		String ret = merchantDao.insertNewMerchant(merchant);
 		if (!ret.equals(""))
-			jumpPage = "/signupSuccess.jsp?MerchantID=" + ret;
+            redirPage = "/signupSuccess.jsp?MerchantID=" + ret;
 		else
-			jumpPage = "/fail.jsp";
+            redirPage = "/fail.jsp";
 		return "success";
 	}
 

@@ -12,7 +12,7 @@ import com.hijoy.utilcommon.SendEmail;
 public class MerchantDao {
 
 	public String insertNewMerchant(Merchant m) {
-		String id = "ok";
+		String id = "";
 		Connection con = DataBaseDao.getConnection();
 		if (con == null) {
 			System.out.println("con is null");
