@@ -12,7 +12,6 @@
                 <interceptor-ref name="defaultStack" />
             </interceptor-stack>
         </interceptors>
-        <default-interceptor-ref name="myStack" />
         <!-- <default-interceptor-ref name="myInterceptor" /> -->
         <global-results>
             <result name="fail" type="redirect">/index.jsp</result>
@@ -20,10 +19,15 @@
     </package>
 
     <package name="hijoyActions" namespace="/merchant" extends="login_struts">
-        <action name="register" class="com.hijoy.action.RegistrationAction">
+        <action name="register" class="registrationAction">
+            <result name="success" type="redirect">${redirPage}</result>
+            <interceptor-ref name="myStack" ></interceptor-ref>
+        </action>
+        <action name="validateAccount" class="emailVerificationAction">
             <result name="success" type="redirect">${redirPage}</result>
         </action>
     </package>
+
 
     <package name="Security" namespace="/Security" extends="struts-default">
         <action name="SecurityCodeImageAction"

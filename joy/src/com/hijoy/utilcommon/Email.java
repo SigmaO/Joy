@@ -2,7 +2,7 @@ package com.hijoy.utilcommon;
 
 import org.apache.commons.mail.SimpleEmail;
 
-public class SendEmail {
+public class Email {
 	private String content;
 	private String title;
 	private String hostName;
@@ -118,7 +118,7 @@ public class SendEmail {
 	}
 
 	// public static void main(String args[]) {
-	// SendEmail se = new SendEmail();
+	// Email se = new Email();
 	// se.setHostName("smtp.163.com");
 	// se.setSource("xiaobinghu1989@163.com");
 	// se.setPassword("19890302");

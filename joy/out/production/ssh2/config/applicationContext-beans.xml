@@ -14,6 +14,7 @@
 		<!-- <property name="userManage" ref="userManage"></property> -->
 	</bean>
 	<bean name="registrationAction" class="com.hijoy.action.RegistrationAction" scope="prototype"></bean>
+    <bean name="emailVerificationAction" class="com.hijoy.action.EmailVerificationAction" scope="prototype"></bean>
 
 
 	<!-- Spring管理Struts2的Interceptor -->
